@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread("./p01.jpg", 0)  # (flag = 0 or 1 or -1)
+img = cv2.imread("./test2.jpg", 0)  # (flag = 0 or 1 or -1)
 
 ret1, th1 = cv2.threshold(img, 127, 255, cv2.THRESH_BINARY)
 
